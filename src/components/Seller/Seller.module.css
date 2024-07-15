@@ -1,0 +1,15 @@
+.seller{
+    display: flex;
+    background-color: rgb(82, 78, 78);
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.seller button{
+    font-weight: bold;
+    cursor: pointer;
+    height: 2rem;
+}
