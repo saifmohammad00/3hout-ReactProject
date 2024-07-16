@@ -1,4 +1,4 @@
-import classes from "./Seller.module.css";
+import classes from "./Form.module.css";
 import { useState } from "react";
 
 const Seller = (props) => {
