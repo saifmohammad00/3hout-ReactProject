@@ -5,8 +5,8 @@ import Button from "./Button";
 const Buyer = (props) => {
     return <div className={classes.buyer}>
         {props.ondisplay.map((item) => {
-            return <Fragment>
-            <div className={classes.product} key={item.id}>
+            return <Fragment key={item.id}>
+            <div className={classes.product}>
                 <span>{item.name}</span>
                 <span>{item.description}</span>
                 <span>Price:${item.price}</span>

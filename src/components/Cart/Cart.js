@@ -15,6 +15,7 @@ const Cart = () => {
         setoverlay(event);
     }
     return <Fragment>
+           <h1>Medical Store</h1>
             <button className={classes.button} onClick={cartHandle}>
             <span className={classes.cart}>
                 <CartIcon />
