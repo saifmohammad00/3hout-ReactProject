@@ -9,6 +9,9 @@ const Seller = (props) => {
     });
     const submitHandler = (event) => {
         event.preventDefault();
+        if(formData.name===""){
+            return ;
+        }
         props.onaddProduct(formData);
         setFormData({
             name: '',
