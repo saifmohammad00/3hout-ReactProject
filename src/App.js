@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import Seller from "./components/Seller/Seller";
+import Form from "./components/Form/Form";
 import Buyer from "./components/Buyer/Buyer";
 import AppcontextProvider from "./store/contextProvider";
 import Cart from "./components/Cart/Cart";
@@ -21,7 +21,7 @@ function App() {
   return (<AppcontextProvider>
     <Fragment>
       <Cart />
-      <Seller onaddProduct={saveItems} />
+      <Form onaddProduct={saveItems} />
       <Buyer ondisplay={items}/>
     </Fragment>
   </AppcontextProvider>
